@@ -1,0 +1,14 @@
+
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "declaration": true,
+    "declarationDir": ".",
+    "strict": false,
+    "emitDeclarationOnly": true,
+    "allowJs": true,
+    "noImplicitThis": true
+  },
+  "include": ["es/**/*", "lib/**/*"],
+  "exclude": ["node_modules", "**/test/**/*", "**/demo/**/*"]
+}

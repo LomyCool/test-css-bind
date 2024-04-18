@@ -1,6 +1,21 @@
 export default {
   name: 'test-css-bind',
   build: {
+    packageManager: 'pnpm',
+    configureVite(config) {
+      const { BUILD_TARGET } = process.env;
+      console.log("🚀 ~ configureVite ~ BUILD_TARGET:", BUILD_TARGET)
+
+      if (BUILD_TARGET === 'package') {
+        // 修改组件库构建配置
+      }
+
+      if (BUILD_TARGET === 'site') {
+        // 修改文档站点构建配置
+      }
+
+      return config;
+    },
     css: {
       preprocessor: 'less',
     },
