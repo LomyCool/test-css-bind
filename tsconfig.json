@@ -8,9 +8,20 @@
     "skipLibCheck": true,
     "esModuleInterop": true,
     "moduleResolution": "Node",
-    "lib": ["esnext", "dom"]
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "types": [
+      "@vue/shared"
+    ]
   },
-  "include": ["src/**/*", "docs/**/*", "test/**/*", "typings/**/*"],
+  "include": [
+    "src/**/*",
+    "docs/**/*",
+    "test/**/*",
+    "typings/**/*"
+  ],
   "ts-node": {
     "compilerOptions": {
       "module": "CommonJS"
