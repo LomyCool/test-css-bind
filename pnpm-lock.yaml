@@ -6,7 +6,7 @@ settings:
 
 devDependencies:
   '@vant/cli':
-    specifier: ^7.0.0
+    specifier: ^7.0.1
     version: 7.0.1(@types/markdown-it@14.0.1)(sass@1.75.0)(vue@3.4.21)
   sass:
     specifier: ^1.49.7
