@@ -27,7 +27,7 @@
     "vue": "^3.3.4"
   },
   "devDependencies": {
-    "@vant/cli": "^7.0.1",
+    "@vant/cli": "^7.0.2",
     "sass": "^1.49.7",
     "vue": "^3.3.4"
   },

@@ -6,8 +6,8 @@ settings:
 
 devDependencies:
   '@vant/cli':
-    specifier: ^7.0.1
-    version: 7.0.1(@types/markdown-it@14.0.1)(sass@1.75.0)(vue@3.4.21)
+    specifier: ^7.0.2
+    version: 7.0.2(@types/markdown-it@14.0.1)(sass@1.75.0)(vue@3.4.21)
   sass:
     specifier: ^1.49.7
     version: 1.75.0
@@ -685,28 +685,28 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
 
-  /@module-federation/runtime-tools@0.0.8:
-    resolution: {integrity: sha512-tqx3wlVHnpWLk+vn22c0x9Nv1BqdZnoS6vdMb53IsVpbQIFP70nhhvymHUyFuPkoLzMFidS7GpG58DYT/4lvCw==, tarball: https://registry.npmjs.org/@module-federation/runtime-tools/-/runtime-tools-0.0.8.tgz}
+  /@module-federation/runtime-tools@0.1.6:
+    resolution: {integrity: sha512-7ILVnzMIa0Dlc0Blck5tVZG1tnk1MmLnuZpLOMpbdW+zl+N6wdMjjHMjEZFCUAJh2E5XJ3BREwfX8Ets0nIkLg==, tarball: https://registry.npmjs.org/@module-federation/runtime-tools/-/runtime-tools-0.1.6.tgz}
     dependencies:
-      '@module-federation/runtime': 0.0.8
-      '@module-federation/webpack-bundler-runtime': 0.0.8
+      '@module-federation/runtime': 0.1.6
+      '@module-federation/webpack-bundler-runtime': 0.1.6
     dev: true
 
-  /@module-federation/runtime@0.0.8:
-    resolution: {integrity: sha512-Hi9g10aHxHdQ7CbchSvke07YegYwkf162XPOmixNmJr5Oy4wVa2d9yIVSrsWFhBRbbvM5iJP6GrSuEq6HFO3ug==, tarball: https://registry.npmjs.org/@module-federation/runtime/-/runtime-0.0.8.tgz}
+  /@module-federation/runtime@0.1.6:
+    resolution: {integrity: sha512-nj6a+yJ+QxmcE89qmrTl4lphBIoAds0PFPVGnqLRWflwAP88jrCcrrTqRhARegkFDL+wE9AE04+h6jzlbIfMKg==, tarball: https://registry.npmjs.org/@module-federation/runtime/-/runtime-0.1.6.tgz}
     dependencies:
-      '@module-federation/sdk': 0.0.8
+      '@module-federation/sdk': 0.1.6
     dev: true
 
-  /@module-federation/sdk@0.0.8:
-    resolution: {integrity: sha512-lkasywBItjUTNT0T0IskonDE2E/2tXE9UhUCPVoDL3NteDUSFGg4tpkF+cey1pD8mHh0XJcGrCuOW7s96peeAg==, tarball: https://registry.npmjs.org/@module-federation/sdk/-/sdk-0.0.8.tgz}
+  /@module-federation/sdk@0.1.6:
+    resolution: {integrity: sha512-qifXpyYLM7abUeEOIfv0oTkguZgRZuwh89YOAYIZJlkP6QbRG7DJMQvtM8X2yHXm9PTk0IYNnOJH0vNQCo6auQ==, tarball: https://registry.npmjs.org/@module-federation/sdk/-/sdk-0.1.6.tgz}
     dev: true
 
-  /@module-federation/webpack-bundler-runtime@0.0.8:
-    resolution: {integrity: sha512-ULwrTVzF47+6XnWybt6SIq97viEYJRv4P/DByw5h7PSX9PxSGyMm5pHfXdhcb7tno7VknL0t2V8F48fetVL9kA==, tarball: https://registry.npmjs.org/@module-federation/webpack-bundler-runtime/-/webpack-bundler-runtime-0.0.8.tgz}
+  /@module-federation/webpack-bundler-runtime@0.1.6:
+    resolution: {integrity: sha512-K5WhKZ4RVNaMEtfHsd/9CNCgGKB0ipbm/tgweNNeC11mEuBTNxJ09Y630vg3WPkKv9vfMCuXg2p2Dk+Q/KWTSA==, tarball: https://registry.npmjs.org/@module-federation/webpack-bundler-runtime/-/webpack-bundler-runtime-0.1.6.tgz}
     dependencies:
-      '@module-federation/runtime': 0.0.8
-      '@module-federation/sdk': 0.0.8
+      '@module-federation/runtime': 0.1.6
+      '@module-federation/sdk': 0.1.6
     dev: true
 
   /@nodelib/fs.scandir@2.1.5:
@@ -858,30 +858,30 @@ packages:
     dev: true
     optional: true
 
-  /@rsbuild/core@0.6.1:
-    resolution: {integrity: sha512-I/AE7AbRu7hEytRlxKptSGkd2ZXAgowUjH86dspkinoBlGcGjRhYGAYaDR4svfq3MmTTuU0lA/w4JAHHR0E59A==, tarball: https://registry.npmjs.org/@rsbuild/core/-/core-0.6.1.tgz}
+  /@rsbuild/core@0.6.4:
+    resolution: {integrity: sha512-9sdsfP0v44C5/JB33UbZ+qoubWNCmRCt4z/XknXXLmBrCQxHL+OoVq1YV5YChlc9QQsa5ePG3bVmNqzg4gzc7A==, tarball: https://registry.npmjs.org/@rsbuild/core/-/core-0.6.4.tgz}
     engines: {node: '>=16.0.0'}
     hasBin: true
     dependencies:
-      '@rsbuild/shared': 0.6.1(@swc/helpers@0.5.3)
-      '@rspack/core': 0.6.1(@swc/helpers@0.5.3)
+      '@rsbuild/shared': 0.6.4(@swc/helpers@0.5.3)
+      '@rspack/core': 0.6.2(@swc/helpers@0.5.3)
       '@swc/helpers': 0.5.3
       core-js: 3.36.1
-      html-webpack-plugin: /html-rspack-plugin@5.6.2(@rspack/core@0.6.1)
+      html-webpack-plugin: /html-rspack-plugin@5.6.2(@rspack/core@0.6.2)
       postcss: 8.4.38
     dev: true
 
-  /@rsbuild/plugin-babel@0.6.1(@rsbuild/core@0.6.1):
-    resolution: {integrity: sha512-Omp8U/B+NiAOCI3a4z9HxC/7EycFNmbfniAQlWDd+87QIwjGZ2ZiPjHjogq9V+jDuEnm7bCVLCRQDfVAloA/wg==, tarball: https://registry.npmjs.org/@rsbuild/plugin-babel/-/plugin-babel-0.6.1.tgz}
+  /@rsbuild/plugin-babel@0.6.4(@rsbuild/core@0.6.4):
+    resolution: {integrity: sha512-D1yXR9cvZWvsLWRWDhtlLmLD6sPVlcH6H1zg6590Uf5EK7J9MruNxa54GI9JCnR5yVo6X1zhRSnOB3jJEIDdEQ==, tarball: https://registry.npmjs.org/@rsbuild/plugin-babel/-/plugin-babel-0.6.4.tgz}
     peerDependencies:
-      '@rsbuild/core': ^0.6.1
+      '@rsbuild/core': ^0.6.4
     dependencies:
       '@babel/core': 7.24.4
       '@babel/plugin-proposal-decorators': 7.24.1(@babel/core@7.24.4)
       '@babel/plugin-transform-class-properties': 7.24.1(@babel/core@7.24.4)
       '@babel/preset-typescript': 7.24.1(@babel/core@7.24.4)
-      '@rsbuild/core': 0.6.1
-      '@rsbuild/shared': 0.6.1(@swc/helpers@0.5.3)
+      '@rsbuild/core': 0.6.4
+      '@rsbuild/shared': 0.6.4(@swc/helpers@0.5.3)
       '@types/babel__core': 7.20.5
       upath: 2.0.1
     transitivePeerDependencies:
@@ -889,14 +889,14 @@ packages:
       - supports-color
     dev: true
 
-  /@rsbuild/plugin-vue-jsx@0.6.1(@babel/core@7.24.4)(@rsbuild/core@0.6.1):
-    resolution: {integrity: sha512-dsjsGxj7nZVwZ9v7uPmZkmRuFARSHHS6jbnHTEfMcB4iS+dyn+Au8PXggGv82XpazJxfkosV55s9ZB/Wb1k2+g==, tarball: https://registry.npmjs.org/@rsbuild/plugin-vue-jsx/-/plugin-vue-jsx-0.6.1.tgz}
+  /@rsbuild/plugin-vue-jsx@0.6.4(@babel/core@7.24.4)(@rsbuild/core@0.6.4):
+    resolution: {integrity: sha512-G3Na2Rt4/MDRmrZ2X/J1Ixwr01eX2iOSkV7CILHWd/KsIcFbmAlYn0s86duYT4Bi1h6WaOU25TkWpihQ1J1HCQ==, tarball: https://registry.npmjs.org/@rsbuild/plugin-vue-jsx/-/plugin-vue-jsx-0.6.4.tgz}
     peerDependencies:
-      '@rsbuild/core': ^0.6.1
+      '@rsbuild/core': ^0.6.4
     dependencies:
-      '@rsbuild/core': 0.6.1
-      '@rsbuild/plugin-babel': 0.6.1(@rsbuild/core@0.6.1)
-      '@rsbuild/shared': 0.6.1(@swc/helpers@0.5.3)
+      '@rsbuild/core': 0.6.4
+      '@rsbuild/plugin-babel': 0.6.4(@rsbuild/core@0.6.4)
+      '@rsbuild/shared': 0.6.4(@swc/helpers@0.5.3)
       '@vue/babel-plugin-jsx': 1.2.2(@babel/core@7.24.4)
       babel-plugin-vue-jsx-hmr: 1.0.0
     transitivePeerDependencies:
@@ -905,13 +905,13 @@ packages:
       - supports-color
     dev: true
 
-  /@rsbuild/plugin-vue@0.6.1(@rsbuild/core@0.6.1)(esbuild@0.20.2)(vue@3.4.21):
-    resolution: {integrity: sha512-OkKIIX7skZMyma/Bk4mMYeHL0WbYG/NiBunU5vf4JpijEnUtzZCTz69CZGGTmL4pVsFMKb2LAW2uWqRk9U2Wtw==, tarball: https://registry.npmjs.org/@rsbuild/plugin-vue/-/plugin-vue-0.6.1.tgz}
+  /@rsbuild/plugin-vue@0.6.4(@rsbuild/core@0.6.4)(esbuild@0.20.2)(vue@3.4.21):
+    resolution: {integrity: sha512-2WoSUe/sGCOY/jX/Ft/tZAwdMRfYjezOIF5l29nTY5zOPZYalS0ohAzgjf83jbQXSX1+pgSzTgOPE3whgq/0Aw==, tarball: https://registry.npmjs.org/@rsbuild/plugin-vue/-/plugin-vue-0.6.4.tgz}
     peerDependencies:
-      '@rsbuild/core': ^0.6.1
+      '@rsbuild/core': ^0.6.4
     dependencies:
-      '@rsbuild/core': 0.6.1
-      '@rsbuild/shared': 0.6.1(@swc/helpers@0.5.3)
+      '@rsbuild/core': 0.6.4
+      '@rsbuild/shared': 0.6.4(@swc/helpers@0.5.3)
       vue-loader: 17.4.2(vue@3.4.21)(webpack@5.91.0)
       webpack: 5.91.0(esbuild@0.20.2)
     transitivePeerDependencies:
@@ -924,104 +924,104 @@ packages:
       - webpack-cli
     dev: true
 
-  /@rsbuild/shared@0.6.1(@swc/helpers@0.5.3):
-    resolution: {integrity: sha512-AEjdkhgc1FHPPEPWua3k6i/UOgxw9xvIGjl7IEyC4jJgYAKDqr2LcL6hhP+dS3BAVDUsJrQJ0FN3zWLkaYICDQ==, tarball: https://registry.npmjs.org/@rsbuild/shared/-/shared-0.6.1.tgz}
+  /@rsbuild/shared@0.6.4(@swc/helpers@0.5.3):
+    resolution: {integrity: sha512-MqaVYNRcq/eT7TNt/iMQzdyN71WwT1wEonnJIz4/x5wV0sf82BN0rrIwFLBSkEO/0HBf1K5bKGTjX727tJNztw==, tarball: https://registry.npmjs.org/@rsbuild/shared/-/shared-0.6.4.tgz}
     dependencies:
-      '@rspack/core': 0.6.1(@swc/helpers@0.5.3)
+      '@rspack/core': 0.6.2(@swc/helpers@0.5.3)
       caniuse-lite: 1.0.30001610
       postcss: 8.4.38
     transitivePeerDependencies:
       - '@swc/helpers'
     dev: true
 
-  /@rspack/binding-darwin-arm64@0.6.1:
-    resolution: {integrity: sha512-VbNGprAwNDrddEzGUuy6c+Q9DVlLj8jbtKsBK8maw0ERH7csX+RiH8iK+mUUf3TVMB7egRPODCBgzluyh4smYw==, tarball: https://registry.npmjs.org/@rspack/binding-darwin-arm64/-/binding-darwin-arm64-0.6.1.tgz}
+  /@rspack/binding-darwin-arm64@0.6.2:
+    resolution: {integrity: sha512-2+fpr27wJXVMsY441NRonws/e9RKBUWYX7onc0lFKVg/ZSmEfHWyrygcit/dpghIYQw9NJl5SiPGIPcIYeZd4w==, tarball: https://registry.npmjs.org/@rspack/binding-darwin-arm64/-/binding-darwin-arm64-0.6.2.tgz}
     cpu: [arm64]
     os: [darwin]
     requiresBuild: true
     dev: true
     optional: true
 
-  /@rspack/binding-darwin-x64@0.6.1:
-    resolution: {integrity: sha512-JPRSVUEHxPPNaD8H1e5dCinu/ST5UKF0PTfxL4yElbwWnujWRYhoXZAqEEImDTFIHl8pzf5asUEUt01UGpLuqw==, tarball: https://registry.npmjs.org/@rspack/binding-darwin-x64/-/binding-darwin-x64-0.6.1.tgz}
+  /@rspack/binding-darwin-x64@0.6.2:
+    resolution: {integrity: sha512-q9m+10CZEmElqYoZNSN0V/kNBv1QMjHA7X+93GxtFa2hC7u/zfy80w0EFwSWV/6s5Z7wygmOHH72GAquuRZJUg==, tarball: https://registry.npmjs.org/@rspack/binding-darwin-x64/-/binding-darwin-x64-0.6.2.tgz}
     cpu: [x64]
     os: [darwin]
     requiresBuild: true
     dev: true
     optional: true
 
-  /@rspack/binding-linux-arm64-gnu@0.6.1:
-    resolution: {integrity: sha512-XM3qcxuoH3cETolV1xE8ig169K8hJ5xUcll3bJ0xAmDOdqzXIjnlcKiXWEJbgDY5VFwOqh27SoB3xxXQQv6KPQ==, tarball: https://registry.npmjs.org/@rspack/binding-linux-arm64-gnu/-/binding-linux-arm64-gnu-0.6.1.tgz}
+  /@rspack/binding-linux-arm64-gnu@0.6.2:
+    resolution: {integrity: sha512-F13+1zk8KUagizuvSjh7A83FxF3R/b6+yRIMln7TuV0DQ42JV8H48q/tU8+wI+KqdsNgj2yO8LZjqOQ994k4ow==, tarball: https://registry.npmjs.org/@rspack/binding-linux-arm64-gnu/-/binding-linux-arm64-gnu-0.6.2.tgz}
     cpu: [arm64]
     os: [linux]
     requiresBuild: true
     dev: true
     optional: true
 
-  /@rspack/binding-linux-arm64-musl@0.6.1:
-    resolution: {integrity: sha512-WHDZew5i/Vts5MOyFwwjkfZrPehx9d6Zx/dGSsUriyu+bFmJGNnvSPpcpJejL9t0GNsjs1EL7K5fjwXro3qABA==, tarball: https://registry.npmjs.org/@rspack/binding-linux-arm64-musl/-/binding-linux-arm64-musl-0.6.1.tgz}
+  /@rspack/binding-linux-arm64-musl@0.6.2:
+    resolution: {integrity: sha512-1IyPH6hQreOvcNZmwK4XD8E5NEYqrtzKvsUPB13AV3+mO1EHxhnwQ7Dtk82mqwtaTTUPXJRREp+UNjwUTeJ6bA==, tarball: https://registry.npmjs.org/@rspack/binding-linux-arm64-musl/-/binding-linux-arm64-musl-0.6.2.tgz}
     cpu: [arm64]
     os: [linux]
     requiresBuild: true
     dev: true
     optional: true
 
-  /@rspack/binding-linux-x64-gnu@0.6.1:
-    resolution: {integrity: sha512-bvexuC7ad2hbIDWRURAdwvMHoJmDLL+W2iaQp2xe7x1WKaGt5fT6ZePAth+f0xro+PuAbnfJ5H3J++xvqvAUHA==, tarball: https://registry.npmjs.org/@rspack/binding-linux-x64-gnu/-/binding-linux-x64-gnu-0.6.1.tgz}
+  /@rspack/binding-linux-x64-gnu@0.6.2:
+    resolution: {integrity: sha512-NbqU05wIy1qC+66qlQjE9Zo4oAd70lZRgfO8iuLvon0GxG7plpffefhsAoAsh5vFg17ac6NWdwUUzWImYv2jhQ==, tarball: https://registry.npmjs.org/@rspack/binding-linux-x64-gnu/-/binding-linux-x64-gnu-0.6.2.tgz}
     cpu: [x64]
     os: [linux]
     requiresBuild: true
     dev: true
     optional: true
 
-  /@rspack/binding-linux-x64-musl@0.6.1:
-    resolution: {integrity: sha512-o4P54sUVaHVYyCd6KAUgBNOkBVD39xOyjpK3Ob8+lmrunDAzw6hbE2tMORMm9BfaCeKh+F17VthPjTlFgQsRRg==, tarball: https://registry.npmjs.org/@rspack/binding-linux-x64-musl/-/binding-linux-x64-musl-0.6.1.tgz}
+  /@rspack/binding-linux-x64-musl@0.6.2:
+    resolution: {integrity: sha512-K18x2AR1UiABqJMTlB/mXPytdc9dk0tQuQyJ3hH+gxhYI6T6w22p+hQWq1T9vJsIIk2P693YrfXR66mRFiknsw==, tarball: https://registry.npmjs.org/@rspack/binding-linux-x64-musl/-/binding-linux-x64-musl-0.6.2.tgz}
     cpu: [x64]
     os: [linux]
     requiresBuild: true
     dev: true
     optional: true
 
-  /@rspack/binding-win32-arm64-msvc@0.6.1:
-    resolution: {integrity: sha512-6OoPlxZH2j+k1JyzO0khbtodJmXgpscx7sa6i2HvUsSWJVxAAjMf2ZdRsDGwMxATp9S9HIDklqV7h2X9/nfIvg==, tarball: https://registry.npmjs.org/@rspack/binding-win32-arm64-msvc/-/binding-win32-arm64-msvc-0.6.1.tgz}
+  /@rspack/binding-win32-arm64-msvc@0.6.2:
+    resolution: {integrity: sha512-00FdIoh2X8zt2i07R89zyI0HONof91PiM5JgY8BAfSPur+M9Uj7stqYHezr0KtVdgH2sASMURFGmgcz62pLViw==, tarball: https://registry.npmjs.org/@rspack/binding-win32-arm64-msvc/-/binding-win32-arm64-msvc-0.6.2.tgz}
     cpu: [arm64]
     os: [win32]
     requiresBuild: true
     dev: true
     optional: true
 
-  /@rspack/binding-win32-ia32-msvc@0.6.1:
-    resolution: {integrity: sha512-eJ+WNrEymxFBAB187fFobCS3MUc1afCv0EzAs9LAVPgj2Z3fE8l2XCDUPsRkGtQyh8ftTdyyY9JNqYEIOrx4RQ==, tarball: https://registry.npmjs.org/@rspack/binding-win32-ia32-msvc/-/binding-win32-ia32-msvc-0.6.1.tgz}
+  /@rspack/binding-win32-ia32-msvc@0.6.2:
+    resolution: {integrity: sha512-ZU43j+iicnDrTsu/Wrw/18E+zUTFCfTUdq2BlaKH8yxhJVYqPHFjQo64p/7djULeZVchZU4uGuu00oovEHl/zg==, tarball: https://registry.npmjs.org/@rspack/binding-win32-ia32-msvc/-/binding-win32-ia32-msvc-0.6.2.tgz}
     cpu: [ia32]
     os: [win32]
     requiresBuild: true
     dev: true
     optional: true
 
-  /@rspack/binding-win32-x64-msvc@0.6.1:
-    resolution: {integrity: sha512-Wk/p1jwcjICKOGLmUkrbUZTZ5yQuYJEjNhMyAZDBQtQMOqkycOsijw8c/KYEfJTzSK0TuE+5rK5WDqQkGaYFoQ==, tarball: https://registry.npmjs.org/@rspack/binding-win32-x64-msvc/-/binding-win32-x64-msvc-0.6.1.tgz}
+  /@rspack/binding-win32-x64-msvc@0.6.2:
+    resolution: {integrity: sha512-1Ycfry5nk5SMDYOjlOmVXf4tJHOp2H2Wwupf5j2pUYPD9lyETt7O7GIQbdCLOcBLuyt0OSscDARTcqGlLw27gQ==, tarball: https://registry.npmjs.org/@rspack/binding-win32-x64-msvc/-/binding-win32-x64-msvc-0.6.2.tgz}
     cpu: [x64]
     os: [win32]
     requiresBuild: true
     dev: true
     optional: true
 
-  /@rspack/binding@0.6.1:
-    resolution: {integrity: sha512-Kh81wjmT7r0JiFrqyMOkuve5Pwm4Mq44m6+tywE15bDTpahDIDQ3x18fZqeSTWG4t3P0fhvljsiWWAlPvwyjOg==, tarball: https://registry.npmjs.org/@rspack/binding/-/binding-0.6.1.tgz}
+  /@rspack/binding@0.6.2:
+    resolution: {integrity: sha512-1LVccU/LRIMqp2g1ct2ebDS1DL7MnBlQNcUGf3szIiDsYXuGe3Pk4qdiLbVLzBQoDQFYKJmIgmUA1UkKZ5UN5g==, tarball: https://registry.npmjs.org/@rspack/binding/-/binding-0.6.2.tgz}
     optionalDependencies:
-      '@rspack/binding-darwin-arm64': 0.6.1
-      '@rspack/binding-darwin-x64': 0.6.1
-      '@rspack/binding-linux-arm64-gnu': 0.6.1
-      '@rspack/binding-linux-arm64-musl': 0.6.1
-      '@rspack/binding-linux-x64-gnu': 0.6.1
-      '@rspack/binding-linux-x64-musl': 0.6.1
-      '@rspack/binding-win32-arm64-msvc': 0.6.1
-      '@rspack/binding-win32-ia32-msvc': 0.6.1
-      '@rspack/binding-win32-x64-msvc': 0.6.1
+      '@rspack/binding-darwin-arm64': 0.6.2
+      '@rspack/binding-darwin-x64': 0.6.2
+      '@rspack/binding-linux-arm64-gnu': 0.6.2
+      '@rspack/binding-linux-arm64-musl': 0.6.2
+      '@rspack/binding-linux-x64-gnu': 0.6.2
+      '@rspack/binding-linux-x64-musl': 0.6.2
+      '@rspack/binding-win32-arm64-msvc': 0.6.2
+      '@rspack/binding-win32-ia32-msvc': 0.6.2
+      '@rspack/binding-win32-x64-msvc': 0.6.2
     dev: true
 
-  /@rspack/core@0.6.1(@swc/helpers@0.5.3):
-    resolution: {integrity: sha512-DBlyxm0cyxJ0WiYLeirdJghLhKovLXDhZiQZovZPTFljd1ZX1lCDvTj11KApmW8eJDoiBi0QDYWRLXeZetGllg==, tarball: https://registry.npmjs.org/@rspack/core/-/core-0.6.1.tgz}
+  /@rspack/core@0.6.2(@swc/helpers@0.5.3):
+    resolution: {integrity: sha512-1IggX3FZM4bVhUWhBIeUroiyOH05fBFIT3gvanpXIE00yMbp1exFjkfko5HmQ6e5FQrIvcNEBoQ2QyIYzu0vOw==, tarball: https://registry.npmjs.org/@rspack/core/-/core-0.6.2.tgz}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       '@swc/helpers': '>=0.5.1'
@@ -1029,8 +1029,8 @@ packages:
       '@swc/helpers':
         optional: true
     dependencies:
-      '@module-federation/runtime-tools': 0.0.8
-      '@rspack/binding': 0.6.1
+      '@module-federation/runtime-tools': 0.1.6
+      '@rspack/binding': 0.6.2
       '@swc/helpers': 0.5.3
       browserslist: 4.23.0
       enhanced-resolve: 5.12.0
@@ -1261,17 +1261,17 @@ packages:
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==, tarball: https://registry.npmjs.org/@ungap/structured-clone/-/structured-clone-1.2.0.tgz}
     dev: true
 
-  /@vant/cli@7.0.1(@types/markdown-it@14.0.1)(sass@1.75.0)(vue@3.4.21):
-    resolution: {integrity: sha512-gN5CiOaK/vxb24zmWSHIR4SVioXmOGU0SInXqu2CJA7XO5yLJEbJrxAwyU5d5TaixqPGe4gehs8PRwJD71l/PQ==, tarball: https://registry.npmjs.org/@vant/cli/-/cli-7.0.1.tgz}
+  /@vant/cli@7.0.2(@types/markdown-it@14.0.1)(sass@1.75.0)(vue@3.4.21):
+    resolution: {integrity: sha512-StFKvZV325mdUPL+c27LDdvEvvKUEohE1It1e9QoQRScYfYI/YVrtllKccSVxRTeG5FG10Vp/tn1voapDuwyDQ==, tarball: https://registry.npmjs.org/@vant/cli/-/cli-7.0.2.tgz}
     engines: {node: ^14.16.0 || >=16.0.0}
     hasBin: true
     dependencies:
       '@babel/core': 7.24.4
       '@babel/preset-typescript': 7.24.1(@babel/core@7.24.4)
-      '@rsbuild/core': 0.6.1
-      '@rsbuild/plugin-babel': 0.6.1(@rsbuild/core@0.6.1)
-      '@rsbuild/plugin-vue': 0.6.1(@rsbuild/core@0.6.1)(esbuild@0.20.2)(vue@3.4.21)
-      '@rsbuild/plugin-vue-jsx': 0.6.1(@babel/core@7.24.4)(@rsbuild/core@0.6.1)
+      '@rsbuild/core': 0.6.4
+      '@rsbuild/plugin-babel': 0.6.4(@rsbuild/core@0.6.4)
+      '@rsbuild/plugin-vue': 0.6.4(@rsbuild/core@0.6.4)(esbuild@0.20.2)(vue@3.4.21)
+      '@rsbuild/plugin-vue-jsx': 0.6.4(@babel/core@7.24.4)(@rsbuild/core@0.6.4)
       '@vant/eslint-config': 4.0.0(eslint@8.57.0)(typescript@5.4.5)
       '@vant/touch-emulator': 1.4.0
       '@vitejs/plugin-vue': 4.6.2(vite@5.2.8)(vue@3.4.21)
@@ -1302,7 +1302,7 @@ packages:
       transliteration: 2.3.5
       typescript: 5.4.5
       vite: 5.2.8(less@4.2.0)(sass@1.75.0)(terser@5.30.3)
-      vue-router: 4.3.0(vue@3.4.21)
+      vue-router: 4.3.2(vue@3.4.21)
     transitivePeerDependencies:
       - '@swc/core'
       - '@swc/helpers'
@@ -1915,7 +1915,7 @@ packages:
     resolution: {integrity: sha512-QHTXI/sZQmko1cbDoNAa3mJ5qhWUUNAq3vR0/YiD379fWQrcfuoX1+HW2S0MTt7XmoPLapdaDKUtelUSPic7hQ==, tarball: https://registry.npmjs.org/enhanced-resolve/-/enhanced-resolve-5.12.0.tgz}
     engines: {node: '>=10.13.0'}
     dependencies:
-      graceful-fs: 4.2.10
+      graceful-fs: 4.2.11
       tapable: 2.2.1
     dev: true
 
@@ -2330,7 +2330,7 @@ packages:
     engines: {node: '>=12.0.0'}
     dev: true
 
-  /html-rspack-plugin@5.6.2(@rspack/core@0.6.1):
+  /html-rspack-plugin@5.6.2(@rspack/core@0.6.2):
     resolution: {integrity: sha512-cPGwV3odvKJ7DBAG/DxF5e0nMMvBl1zGfyDciT2xMETRrIwajwC7LtEB3cf7auoGMK6xJOOLjWJgaKHLu/FzkQ==, tarball: https://registry.npmjs.org/html-rspack-plugin/-/html-rspack-plugin-5.6.2.tgz}
     engines: {node: '>=10.13.0'}
     peerDependencies:
@@ -2339,7 +2339,7 @@ packages:
       '@rspack/core':
         optional: true
     dependencies:
-      '@rspack/core': 0.6.1(@swc/helpers@0.5.3)
+      '@rspack/core': 0.6.2(@swc/helpers@0.5.3)
       lodash: 4.17.21
       tapable: 2.2.1
     dev: true
@@ -3308,8 +3308,8 @@ packages:
       webpack: 5.91.0(esbuild@0.20.2)
     dev: true
 
-  /vue-router@4.3.0(vue@3.4.21):
-    resolution: {integrity: sha512-dqUcs8tUeG+ssgWhcPbjHvazML16Oga5w34uCUmsk7i0BcnskoLGwjpa15fqMr2Fa5JgVBrdL2MEgqz6XZ/6IQ==, tarball: https://registry.npmjs.org/vue-router/-/vue-router-4.3.0.tgz}
+  /vue-router@4.3.2(vue@3.4.21):
+    resolution: {integrity: sha512-hKQJ1vDAZ5LVkKEnHhmm1f9pMiWIBNGF5AwU67PdH7TyXCj/a4hTccuUuYCAMgJK6rO/NVYtQIEN3yL8CECa7Q==, tarball: https://registry.npmjs.org/vue-router/-/vue-router-4.3.2.tgz}
     peerDependencies:
       vue: ^3.2.0
     dependencies:
@@ -3338,7 +3338,7 @@ packages:
     engines: {node: '>=10.13.0'}
     dependencies:
       glob-to-regexp: 0.4.1
-      graceful-fs: 4.2.10
+      graceful-fs: 4.2.11
     dev: true
 
   /webpack-sources@3.2.3:
